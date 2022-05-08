@@ -20,6 +20,8 @@ if ! [ -x "$(command -v curl)" ]; then
   exit 1
 fi
 
+cd /var/log/boxbilling-installer.log && touch boxbilling-installer.log
+
 output() {
   echo -e "* ${1}"
 }
