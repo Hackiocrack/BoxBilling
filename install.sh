@@ -50,7 +50,7 @@ output "This script is not associated with the official BoxBilling Project."
 
 output
 
-BOXBILLING_STABLE="$GITHUB_BASE_URL/$SCRIPT_VERSION/install-stable.sh"
+BOXBILLING_STABLE="$GITHUB_BASE_URL/master/install-stable.sh"
 
 BOXBILLING_LATEST="$GITHUB_BASE_URL/master/install-latest.sh"
 
